@@ -1,0 +1,10 @@
+framework module Amytis {
+  umbrella header "Amytis.h"
+
+  export *
+  module * { export * }
+}
+
+module Amytis.__Swift {
+    exclude header "Amytis-Swift.h"
+}
